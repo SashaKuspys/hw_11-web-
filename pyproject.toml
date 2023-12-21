@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["SashaKuspys <134163412+SashaKuspys@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.23"
+fastapi = "^0.105.0"
+alembic = "^1.13.1"
+asyncpg = "^0.29.0"
+uvicorn = "^0.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
